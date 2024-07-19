@@ -1,0 +1,8 @@
+worstGame = 'FifaSeries'
+isCat = True
+numberOfPlantsInHouse = 27
+heightInMeters = 1.75
+print(worstGame)
+print(numberOfPlantsInHouse)
+print(isCat)
+print(heightInMeters)
