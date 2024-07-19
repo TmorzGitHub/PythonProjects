@@ -1,0 +1,16 @@
+aRubbingAlcoholPrice = 4  # This is the initial price set by retailer A
+
+bRubbingAlcoholPrice = aRubbingAlcoholPrice + 1 # b increases the value to 1 higher than a
+
+aRubbingAlcoholPrice = aRubbingAlcoholPrice + 2 # a relative increase in price of a by 2 above b
+
+bRubbingAlcoholPrice = bRubbingAlcoholPrice - 0.5 # b reduced his previous price by 50 pence
+
+aRubbingAlcoholPrice = bRubbingAlcoholPrice - 1.2 # a followed with a reduction of 1.2 relative to b
+
+# b reduced his price by 20%.  Need to calculate the % first and then subtract
+bRubbingAlcoholPrice = bRubbingAlcoholPrice - (bRubbingAlcoholPrice * 0.2)
+
+# All prices are now ready, print them
+print(aRubbingAlcoholPrice)
+print(bRubbingAlcoholPrice)
