@@ -1,0 +1,13 @@
+white = "Carlsen"
+black = "Kasparov"
+
+# Write down your code to swap the two players
+
+tmp = black
+black = white
+white = tmp
+
+
+# As a result, Kasparov will be the white player and Carlsen will take black
+print(white)
+print(black)
