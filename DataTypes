@@ -1,0 +1,10 @@
+maskPrice = 0.11  # First assignment of the variable to be equal to 0.11
+
+maskPrice = 0.65  # Update the variable value to 0.65
+
+maskPrice = 1.2 # Update the variable value to 1.2
+
+maskPrice = 0.23  # Final update of the variable value to 0.23
+
+# Variable valus is now set.  Print it.
+print(maskPrice)
