@@ -1,0 +1,13 @@
+boxA = "small bear"
+boxB = "medium bear"
+boxC = "large bear"
+
+tmpC = boxC
+
+boxC = boxB
+boxB = boxA
+boxA = tmpC
+
+print(boxA)
+print(boxB)
+print(boxC)
